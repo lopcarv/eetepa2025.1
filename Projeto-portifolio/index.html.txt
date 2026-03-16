@@ -1,0 +1,156 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Meu Portfólio Tech - Seu Nome</title> 
+ 
+  <!-- Descrição para mecanismos de busca --> 
+  <meta name="description" content="Portfólio de desenvolvimento web de Seu Nome, com 
+projetos, habilidades e contato."> 
+ 
+  <!-- Link para o CSS --> 
+  <link rel="stylesheet" href="css/style.css"> 
+</head> 
+<body> 
+  <!-- Cabeçalho com navegação principal --> 
+  <header> 
+    <nav class="navbar"> 
+      <div class="logo"> 
+        <a href="#topo">MeuPortfólio<span>Tech</span></a> 
+      </div> 
+      <ul class="nav-links"> 
+        <li><a href="#sobre">Sobre Mim</a></li> 
+        <li><a href="#projetos">Projetos</a></li> 
+        <li><a href="#habilidades">Habilidades</a></li> 
+        <li><a href="#contato">Contato</a></li> 
+      </ul> 
+    </nav> 
+  </header> 
+ 
+  <!-- Conteúdo principal da página --> 
+  <main id="topo"> 
+  <!-- Seção de destaque/hero --> 
+    <section class="hero"> 
+      <div class="hero-texto"> 
+        <h1>Olá, eu sou <span>Seu Nome</span></h1> 
+        <p>Desenvolvedor(a) em formação, apaixonado(a) por tecnologia, front-end e resolução de 
+problemas.</p> 
+        <a href="#projetos" class="btn-primario">Ver meus projetos</a> 
+      </div> 
+ 
+      <div class="hero-imagem"> 
+        <!-- Imagem fictícia, pode ser um avatar ou foto do aluno --> 
+        <img src="images/perfil.png" alt="Foto de perfil do desenvolvedor"> 
+      </div> 
+    </section> 
+
+ <!-- Seção: Sobre Mim --> 
+    <section id="sobre" class="secao"> 
+      <h2>Sobre Mim</h2> 
+      <p> 
+        Meu nome é <strong>Seu Nome</strong>, sou estudante do curso Técnico em Informática 
+        e estou focado(a) em desenvolvimento web front-end. Gosto de trabalhar com HTML, CSS e 
+JavaScript, 
+        sempre buscando boas práticas, acessibilidade e código limpo. 
+      </p> 
+      <p> 
+        Este portfólio foi desenvolvido como parte de uma atividade prática para consolidar 
+conhecimentos  
+        de <em>HTML5 Semântico</em>, <em>CSS3</em> e <em>Git</em>. 
+      </p> 
+    </section> 
+ 
+    <!-- Seção: Projetos (article + cards) --> 
+    <article id="projetos" class="secao"> 
+      <h2>Projetos</h2> 
+ 
+      <div class="cards"> 
+        <!-- Card de projeto 1 --> 
+        <div class="card"> 
+          <img src="images/projeto1.png" alt="Imagem ilustrativa do Projeto 1"> 
+
+<div class="card-conteudo"> 
+            <h3>Projeto 1 - Página de Login</h3> 
+            <p> 
+              Página de login desenvolvida com HTML e CSS, focada em responsividade e usabilidade. 
+            </p> 
+            <a href="#" class="btn-secundario">Ver projeto</a> 
+          </div> 
+        </div> 
+ 
+        <!-- Card de projeto 2 --> 
+        <div class="card"> 
+          <img src="images/projeto2.png" alt="Imagem ilustrativa do Projeto 2"> 
+          <div class="card-conteudo"> 
+            <h3>Projeto 2 - Landing Page</h3> 
+            <p> 
+              Landing page de um produto fictício, utilizando Flexbox e estrutura semântica. 
+            </p> 
+            <a href="#" class="btn-secundario">Ver projeto</a> 
+          </div> 
+        </div> 
+ 
+        <!-- Card de projeto 3 --> 
+        <div class="card"> 
+          <img src="images/projeto3.png" alt="Imagem ilustrativa do Projeto 3"> 
+          <div class="card-conteudo"> 
+            <h3>Projeto 3 - Portfólio Pessoal</h3> 
+            <p> 
+              Versão inicial do meu portfólio, evoluindo conforme avanço no curso. 
+            </p> 
+            <a href="#" class="btn-secundario">Ver projeto</a> 
+          </div> 
+        </div> 
+      </div> 
+    </article> 
+ 
+    <!-- Seção: Habilidades (extra opcional, mas valiosa para empregabilidade) --> 
+    <section id="habilidades" class="secao"> 
+      <h2>Habilidades</h2> 
+      <ul class="lista-habilidades"> 
+ <li>HTML5 Semântico</li> 
+        <li>CSS3 (Flexbox, Responsividade)</li> 
+        <li>Git e GitHub (básico)</li> 
+        <li>Lógica de Programação</li> 
+        <li>Trabalho em equipe e comunicação</li> 
+      </ul> 
+    </section> 
+ 
+    <!-- Seção/Formulário de Contato --> 
+    <section id="contato" class="secao secao-contato"> 
+      <h2>Contato</h2> 
+      <p>Preencha o formulário abaixo para entrar em contato comigo:</p> 
+ 
+      <form action="#" method="post" class="form-contato"> 
+        <div class="grupo-campo"> 
+          <label for="nome">Nome</label> 
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required> 
+        </div> 
+ 
+        <div class="grupo-campo"> 
+          <label for="email">E-mail</label> 
+          <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" 
+required> 
+        </div> 
+ 
+        <div class="grupo-campo"> 
+          <label for="mensagem">Mensagem</label> 
+          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua 
+mensagem" required></textarea> 
+        </div> 
+ 
+        <div class="grupo-campo"> 
+          <input type="submit" value="Enviar Mensagem" class="btn-primario"> 
+        </div> 
+      </form> 
+    </section> 
+  </main> 
+ 
+  <!-- Rodapé da página --> 
+
+  <footer> 
+    <p>&copy; 2026 - Desenvolvido por Seu Nome. Todos os direitos reservados.</p> 
+  </footer> 
+</body> 
+</html>
